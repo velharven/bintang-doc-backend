@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documentations",
+  "info": {
+    "singularName": "documentation",
+    "pluralName": "documentations",
+    "displayName": "Documentation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "category": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "isPublished": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "string"
+    },
+    "parentTitle": {
+      "type": "string"
+    }
+  }
+}
